@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(135, 169, 160, 0.918);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background: aliceblue;
+    width: 410px;
+    padding: 30px;
+    box-shadow: rgb(91, 38, 118);
+    
+}
+
+.container h2, .container h3{
+    font-weight: 500px;
+    font-size: 25px;
+}
+
+.container img{
+    width: 200px;
+}
+
+.container .text{
+    font-size: 35px;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(199, 21, 175);
+}
+.container form{
+    margin-top: -30px;
+}
+
+.container form .data{
+    height: 45px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+form .data label{
+    font-size: 18px;
+}
+
+form .data input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid silver;
+}
+
+form .data input:focus{
+    border-color: blueviolet;
+    border-bottom-width: 4px;
+}
+
+form .forgot-pass{
+    margin-top: -8px;
+    font-size: 20px;
+    
+}
+
+form .forgot-pass a{
+    color: rgba(26, 128, 237, 0.976);
+    text-decoration: none;
+}
+
+form .forgot-pass a:hover{
+    text-decoration: underline;
+}
+
+form .btn{
+    margin: 30px 0;
+    height: 45px;
+    width: 100%;
+}
+
+form .btn button{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    color: rgb(113, 8, 8);
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: rgb(119, 197, 225) ;
+}
+
+form .signup-link{
+    text-align: center;
+}
+
+form .signup-link a{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+form .signup-link a:hover{
+    text-decoration: underline;
+}
+
+.container-fluid{
+    width: 600px;
+    background: aliceblue;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(157, 88, 145);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-weight: 1000;
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+}
+
+nav .menu a{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(254, 254, 254);
+}
+
+nav .menu a:hover{
+    text-decoration: underline;
+}
+
+.error{
+    color: darkred;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.good{
+    color: mediumturquoise;
+    font-weight: bold;
+    padding: 10px;
+}

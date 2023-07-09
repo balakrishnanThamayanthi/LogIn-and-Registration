@@ -1,0 +1,21 @@
+<nav>
+        <div class="logo">LonG JournY</div>
+        <div class="menu">
+            {{#if user}}
+            <a href="/auth/home">Home</a>
+            <a href="/auth/profile">Profile</a>
+            <a href="/auth/logout">Logout</a>
+            
+            {{else}}
+            
+            <a href="/register">Register</a>
+            <a href="/">Login</a>
+            <a href="/auth/logout">Logout</a>
+            {{!-- <a href="/home">Home</a>
+            <a href="/profile">Profile</a>
+             --}}
+           
+            {{/if}}
+        </div>
+
+</nav>
